@@ -4,11 +4,103 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+      <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <title>Weather</title>
   </head>
   <body>
-    <h1>My awsome app</h1>
-    <script src="index.js"></script>
+    <div class="main-container">
+   <header>
+  <div class="container-header">
+  <form id="search-form">
+  <input 
+       class="city-input-form"
+       type="text" 
+       id="city-input"
+       placeholder="City" />
+  <input type="submit" value="🔍" />
+   <button class="location">current</button>
+ </form>
+    <h5 id="date"></h5>
+    <h6 id="temperature"> </h6>
+  </div>
+    </header>
+ </div>
+    <div class="container">
+      <div class="container text-center">
+        <div class="container text-center">
+          <div class="row row-cols">
+            <div class="col">
+              <div class="card">
+                <div class="card-body">
+                  <strong> Tuesday </strong><br />
+                  Jan 31 <br />
+                  <span class="emoji"> ☀️</span> <br />
+                  Sunny <br />
+                  -1°C/2°C
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="card-body">
+                  <strong> Wednesday</strong> <br />
+                  Feb 1 <br />
+                  <span class="emoji">☀️ </span><br />
+                  Sunny <br />
+                  -6°C/-1°C
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="card-body">
+                  <strong> Thursday</strong> <br />
+                  Feb 2 <br />
+                  <span class="emoji">☀️ </span><br />
+                  Sunny <br />
+                  -7°C/-2°C
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="card-body">
+                  <strong> Friday</strong> <br />
+                  Feb 3 <br />
+                  <span class="emoji">☁️ </span><br />
+                  Cloudy <br />
+                  -5°C/0°C
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="card-body">
+                  <strong>Saturday</strong> <br />
+                  Feb 4 <br />
+                  <span class="emoji">☀️</span> <br />
+                  Sunny <br />
+                  -4°C/1°C
+                </div>
+              </div>
+            </div>
+          
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <footer>Coded by Oksana Sydorenko</footer>
+    <script src="src/script.js"></script>
   </body>
 </html>
+

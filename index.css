@@ -27,7 +27,8 @@ body {
     margin-top: 5px;
     border-radius: 10%;
     color: #FFD600;
-    background-color: #5184A5;
+    /* background-color: #5184A5; */
+    background-color: red;
 }
 
 header {
@@ -80,6 +81,5 @@ footer {
     text-align: center;
     margin-left: 35%;
     margin-right: 35%;
-
 
 }
